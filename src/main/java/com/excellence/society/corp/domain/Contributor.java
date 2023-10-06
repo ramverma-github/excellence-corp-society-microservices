@@ -19,8 +19,21 @@ public class Contributor {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Integer id;
-    private String name;
+    private String fullName;
     @DateTimeFormat(pattern = "DD-MM-YYYY")
-    private String dob;
+    private String dateOfBirth;
+    private String gender;
+    private String emailId;
+    private Long mobileNumber;
     private String profession;
+    private String address;
+    private String city;
+    private String state;
+    private String country;
+    private String pin;
+    private String idProof;
+    private Long idProofNumber;
+    private String nomineeName;
+    private String nomineeIdProof;
+    private Long nomineeIdProofNumber;
 }
